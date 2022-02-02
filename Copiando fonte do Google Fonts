@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes com google Fonts</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); /* usando fonte copiada do Google fonts*/
+        body {
+            font-family: 'Dancing Script', cursive;
+            font-weight: 400;
+            font-size: 23px;
+            background-color: rgb(180, 243, 55);
+    
+        }
+        h1 {
+            text-align: center;
+            color: black;
+            font-family: 'Dancing Script' ; /* fonte copiada do Google fonts*/
+            
+        }
+        main {
+            background-color: white;
+            width: 600px;
+            padding: 100px;
+            margin: auto;
+            border-radius: 20px;
+            box-shadow: -5px -5px ;
+        }
+        p {
+            color:black;
+        }
+    </style>
+    <main>
+    <h1>Título</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia suscipit cumque ad quam incidunt qui dicta architecto illo officiis magni, fuga, quia voluptatem inventore expedita sit, nam quae dignissimos itaque.</p>
+</main>
+</body>
+</html>
